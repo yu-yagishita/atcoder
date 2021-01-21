@@ -12,6 +12,17 @@
             "program": "${file}",
             "console": "integratedTerminal"
         },
+        // {
+        //     "name": "atcoder Debugger",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "console": "integratedTerminal",
+        //     "args":[
+        //         "<",
+        //         "${fileDirname}/input.txt"
+        //     ]
+        // },
         {
             "name": "atcoder Debugger",
             "type": "python",
@@ -20,7 +31,7 @@
             "console": "integratedTerminal",
             "args":[
                 "<",
-                "${fileDirname}/input.txt"
+                "input.txt"
             ]
         },
     ]
