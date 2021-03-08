@@ -26,6 +26,7 @@ def levenshtein(s1, s2):
 
     return dp[n][m]
 
+
 s1 = input()
 s2 = input()
 print(levenshtein(s1, s2))

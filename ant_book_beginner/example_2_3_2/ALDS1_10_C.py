@@ -16,8 +16,9 @@ def lcs(a: str, b: str):
                 L.append(chr_idx)
     return len(L)
 
+
 N = int(input())
 for i in range(N):
     a = input()
-    b= input()
+    b = input()
     print(lcs(a, b))
